@@ -83,11 +83,12 @@ def select_child(self, parent: Node) -> Node:
     return best_child
 ```
 - Select the best child node by $\arg\max_{a}(Q(s,a) + U(s,a))$.
-    - $Q(s,a)=
+    - ![formula](https://latex.codecogs.com/svg.image?Q(s,a)=\begin{cases}-1&\text{if%20}N(s,a)=0%5C%5CQ(s,a)&\text{if%20}N(s,a)\neq0\end{cases})
+    <!-- - $Q(s,a)=
     \begin{cases}
     -1& \text{if } N(s,a)=0\\
     Q(s,a)& \text{if } N(s,a)\neq0
-    \end{cases}$
+    \end{cases}$ -->
     - $U(s,a)=P(s,a) \frac{\sqrt{\sum{_b}N(s,b)}}{1+N(s,a)}[c_1+\log(\frac{\sum{_b}N(s,b)+c_2+1}{c_2})]$
 - $N(s,a)$ represents the visit count of node $s$ when taking action $a$.
 - $\sum{_b}N(s,b)$ represents the total visit count of the child nodes $b$ of node $s$, which typically refers to the visit count of the parent node.
