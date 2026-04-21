@@ -103,7 +103,8 @@ Beyond the tutorials, you might want to dive deeper and explore more:
 - **Feature design**: add history channels or new board encodings.
 
 ## 🔗 References
-- [M. Szubert and W. Jaśkowski, "Temporal difference learning of N-tuple networks for the game 2048," CIG 2014.](https://doi.org/10.1109/CIG.2014.6932907)  
-- [I-C. Wu, K.-H. Yeh, C.-C. Liang, C.-C. Chang, and H. Chiang, "Multi-stage temporal difference learning for 2048," TAAI 2014.](https://doi.org/10.1007/978-3-319-13987-6_34)  
-- [K. Matsuzaki, "Systematic selection of N-tuple networks with consideration of interinfluence for game 2048," TAAI 2016](https://doi.org/10.1109/TAAI.2016.7880154).  
-- [D. Silver et al., "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play," Science 362, 2018.](https://doi.org/10.1126/science.aar6404)  
+- [M. Szubert and W. Jaśkowski, "Temporal difference learning of N-tuple networks for the game 2048," CIG 2014.](https://doi.org/10.1109/CIG.2014.6932907)
+- [I-C. Wu, K.-H. Yeh, C.-C. Liang, C.-C. Chang, and H. Chiang, "Multi-stage temporal difference learning for 2048," TAAI 2014.](https://doi.org/10.1007/978-3-319-13987-6_34)
+- [K. Matsuzaki, "Systematic selection of N-tuple networks with consideration of interinfluence for game 2048," TAAI 2016.](https://doi.org/10.1109/TAAI.2016.7880154)
+- [D. Silver et al., "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play," Science 362, 2018.](https://doi.org/10.1126/science.aar6404)
+- [D. Silver et al., "Mastering the game of Go without human knowledge," Nature 550, 2017.](https://doi.org/10.1038/nature24270)
